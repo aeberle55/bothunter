@@ -13,7 +13,7 @@ parser.add_argument('-f', '--forum', default='rwby',
 parser.add_argument('-I', '--interactive', action='store_true',
                     help='Enter interactive shell to process bots')
 parser.add_argument('-o', '--output', default=None, help='Outupt file location')
-parser.add_argument('-m', '--max', default=1, type=int,
+parser.add_argument('-m', '--max', default=None, type=int,
                     help='Max number of pages to check')
 parser.add_argument('-q', '--quiet', action='store_true',
                     help='Do not print data to screen')
