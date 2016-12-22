@@ -7,12 +7,16 @@ Requires Python 2.7 and BeautifulSoup 4. Python should come pre-installed on
 linux systems. To get BeautifulSoup, first install pip, then the package:
 
 Debian:
+```
     sudo apt-get install python-pip
     sudo pip install beautifulsoup4
+```
 
-Red Hat:
+RedHat:
+```
     sudo yum install python-pip
     sudo pip install beautifulsoup4
+```
 
 Windows:
 
@@ -25,7 +29,11 @@ Bothunter is a command line utility that scrapes a given RT forum for spambots
 by looking for unusual Unicode in their titles. It then provides a list of
 probable spammers and posts for the user to browse. It can provide this
 information in multiple formats, including direct print to screen, writing to
-a file, and an interactive session.
+a file, and an interactive session. You can run the basic script with:
+
+```
+python bothunter.py
+```
 
 ### Interactive Mode
 If specified by the `-I` or `--interactive` flag, the system will drop into an
